@@ -34,8 +34,8 @@
 %Main rays
 \foreach \a in {0, 90,...,359} \draw[rotate=90,very thick] (0, 0) -- (\a:11);
 %Angle labels
-\foreach \a in {0, -15,...,-179} \draw[rotate=90,yscale=-1,xscale=1] (\a: 11.5) node {$\a^\circ$};
-\foreach \a in {15, 30,...,180} \draw[rotate=90,yscale=-1,xscale=1] (\a: 11.5) node {$\a^\circ$};
+\foreach \a in {0, 15,...,180} \draw[rotate=90,yscale=-1,xscale=1] (\a: 11.5) node {$\a^\circ$};
+\foreach \a in {-15, -30,...,-179} \draw[rotate=90,yscale=-1,xscale=1] (\a: 11.5) node {$\a^\circ$};
 %Central point
 \draw[fill=red] (0,0) circle(0.7mm);
 % Now the additional plot:
